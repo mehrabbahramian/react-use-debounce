@@ -7,7 +7,7 @@ A tiny, fully tested React hook for debouncing functions. Written in TypeScript,
 There's no package published yet, so drop `src/useDebounce.ts` straight into your project:
 
 ```bash
-curl -o src/hooks/useDebounce.ts https://github.com/mehrabbahramian/react-use-debounce/src/useDebounce.tsx
+curl -o src/hooks/useDebounce.tsx https://github.com/mehrabbahramian/react-use-debounce/blob/master/src/useDebounce.tsx
 ```
 
 Or just copy-paste the file. It has no dependencies beyond `react`.
