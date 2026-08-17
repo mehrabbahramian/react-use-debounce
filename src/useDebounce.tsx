@@ -5,7 +5,7 @@ type DebouncedFunction<Args extends unknown[]> = {
   cancel: () => void;
 };
 
-export function useDeboune<Args extends unknown[]>(
+export function useDebounce<Args extends unknown[]>(
   callback: (...args: Args) => void,
   delay: number,
 ): DebouncedFunction<Args> {
